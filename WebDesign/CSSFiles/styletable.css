@@ -1,0 +1,26 @@
+table {
+  border: 3px solid black ;
+border-collapse:  collapse;
+}
+
+caption {
+font-size:  30px;
+}
+
+th {
+  font-size:  24px;
+border: 1px solid black; 
+padding: 12px;
+ 
+}
+
+td {
+  font-size:  16px;
+border: 1px solid black ;
+border-collapse:  collapse;
+padding: 8px;
+}
+
+tr:nth-child(2n) {
+     background-color: rgba(128, 128, 128,0.6);
+}
